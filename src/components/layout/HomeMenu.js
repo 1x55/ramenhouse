@@ -1,4 +1,5 @@
 import Image from "next/image";
+import MenuItem from "../menu/MenuItem";
 
 export default function HomeMenu() {
     return (
@@ -20,11 +21,12 @@ export default function HomeMenu() {
        </div>
 
         <div className='grid grid-cols-3 gap-4'>
-            <div className="bg-gray-300 p-4 rounded-lg text-center">   
-                <img src = "" alt="ramen"/>
-                <h4>Tonkotsu Ramen</h4>
-                <p className="text-gray-500 text-sm">The soul of Tonkotsu Ramen. Pork bones are boiled for hours until they break down, creating a creamy, white broth. The long cooking time extracts collagen, marrow, and fat, giving the broth its signature richness and depth.</p>
-            </div>
+            <MenuItem />
+            <MenuItem />
+            <MenuItem />
+            <MenuItem />
+            <MenuItem />
+            <MenuItem />
         </div>
     </section>
     );
