@@ -4,7 +4,9 @@ export default function Home() {
   return (
     <>
       <header>
-        <Link href="">Ramen</Link>
+        <Link className="text-primary font-semibold text-2xl" href="">
+          Ramen
+        </Link>
         <nav>
           <Link href={''}>Home</Link>
           <Link href={''}>Menu</Link>
