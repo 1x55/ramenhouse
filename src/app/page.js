@@ -1,10 +1,11 @@
 import Header from "@/components/layout/header"
-// import Link from "next/link"
+import Hero from "@/components/layout/hero"
 
 export default function Home() {
   return (
     <>
       <Header />
+      <Hero />
     </>
     )
 }
