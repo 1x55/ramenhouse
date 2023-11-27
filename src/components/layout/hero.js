@@ -6,7 +6,9 @@ export default function Hero() {
     <section className="hero">
         <div className="py-12">
             <h1 className="text-4xl font-semibold">
-                Life if Better with a Bowl of Ramen
+                Life <br />is Better with a Bowl of&nbsp;<span className="text-primary">
+                    Ramen
+                </span>
             </h1>
             <p className="my-4 text-gray-500">Ramen is the missing piece that makes every day complete, a simple yet delicious joy in life
             </p>
