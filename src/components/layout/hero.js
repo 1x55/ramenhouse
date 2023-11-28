@@ -10,7 +10,7 @@ export default function Hero() {
                     Ramen
                 </span>
             </h1>
-            <p className="my-4 text-gray-500">Ramen is the missing piece that makes every day complete, a simple yet delicious joy in life
+            <p className="my-6 text-gray-500 text-sm">Ramen is the missing piece that makes every day complete, a simple yet delicious joy in life
             </p>
             {/* add button */}
             <div className="flex gap-4 text-sm">
