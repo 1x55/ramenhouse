@@ -1,9 +1,10 @@
 export default function MenuItem() {
     return (
         <div className="bg-gray-200 p-4 rounded-lg text-center hover:bg-white hover:shadow-md hover:shadow-black/25 transition-all">   
-
+        
+        {/* center image */}
         <div className="text-center">
-            <img src = "/ramen.png" className="max-h-auto max-h-10" alt="ramen"/>
+            <img src = "/ramen.png" className="max-h-auto max-h-24 block mx-auto" alt="ramen"/>
         </div>
         
         <h4 className="font-semibold text-xl my-3">Tonkotsu Ramen</h4>
