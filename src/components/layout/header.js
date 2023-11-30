@@ -5,10 +5,10 @@ export default function Header() {
         <header className="flex items-center justify-between">
         
         <nav className="flex items-center gap-8 text-gray-500 font-semi-bold">
-        <Link className="text-primary font-semibold text-2xl" href="">
+        <Link className="text-primary font-semibold text-2xl" href="/">
           Ramen
         </Link>
-          <Link href={''}>Home</Link>
+          <Link href={'/'}>Home</Link>
           <Link href={''}>Menu</Link>
           <Link href={''}>About</Link>
           <Link href={''}>Contact</Link>
