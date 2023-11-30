@@ -31,11 +31,16 @@ export default function Home() {
           mainHeader={'Contact us'} 
         />
         <div className="mt-8">
-          <a className="text-4xl" href="tel:+81123123123">
+          <a className="text-4xl underline text-gray-500" href="tel:+81123123123">
           +81 123 123 123 
           </a>
         </div>
       </section>
+
+      <footer className="border-t p-8 text-center text-gray-500 mt-16">
+        &copy; 2023 All rights reserved
+
+      </footer>
     </>
     )
 }
